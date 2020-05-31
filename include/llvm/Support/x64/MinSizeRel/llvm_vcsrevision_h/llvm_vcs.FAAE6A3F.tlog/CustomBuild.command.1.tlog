@@ -1,0 +1,28 @@
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\6814707D079EAE4C2E7C7FF0A5C1C727\VCSREVISION.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DNAMES=LLVM -DLLVM_SOURCE_DIR= -DHEADER_FILE=C:/Users/a/Downloads/what/include/llvm/Support/VCSRevision.h -P C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/cmake/modules/GenerateVersionFromVCS.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\09607C840347E808A181E5187FD9D11E\LLVM_VCSREVISION_H.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\LLVM-PROJECT-LLVMORG-10.0.0\LLVM-PROJECT-LLVMORG-10.0.0\LLVM\INCLUDE\LLVM\SUPPORT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm -BC:/Users/a/Downloads/what --check-stamp-file C:/Users/a/Downloads/what/include/llvm/Support/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

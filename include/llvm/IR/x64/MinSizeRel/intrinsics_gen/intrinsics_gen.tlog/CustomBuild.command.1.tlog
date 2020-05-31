@@ -1,0 +1,188 @@
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\ATTRIBUTES.INC.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-attrs -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Attributes.td -o C:/Users/a/Downloads/what/include/llvm/IR/Attributes.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICIMPL.INC.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-impl -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicImpl.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICENUMS.INC.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicEnums.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSAARCH64.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=aarch64 -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsAArch64.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSAMDGPU.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=amdgcn -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsAMDGPU.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSARM.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=arm -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsARM.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSBPF.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=bpf -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsBPF.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSHEXAGON.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=hexagon -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsHexagon.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSMIPS.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=mips -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsMips.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSNVPTX.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=nvvm -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsNVPTX.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSPOWERPC.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=ppc -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsPowerPC.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSR600.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=r600 -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsR600.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSRISCV.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=riscv -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsRISCV.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSS390.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=s390 -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsS390.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSWEBASSEMBLY.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=wasm -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsWebAssembly.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSX86.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=x86 -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsX86.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\30047701D5FCD18C72B7C1A1C7DCAC8E\INTRINSICSXCORE.H.RULE
+setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-intrinsic-enums -intrinsic-prefix=xcore -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR -I C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include C:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm/include/llvm/IR/Intrinsics.td -o C:/Users/a/Downloads/what/include/llvm/IR/IntrinsicsXCore.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\WHAT\CMAKEFILES\49065E345E3BDC38939640DAF51ADC81\INTRINSICS_GEN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\A\DOWNLOADS\LLVM-PROJECT-LLVMORG-10.0.0\LLVM-PROJECT-LLVMORG-10.0.0\LLVM\INCLUDE\LLVM\IR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/a/Downloads/llvm-project-llvmorg-10.0.0/llvm-project-llvmorg-10.0.0/llvm -BC:/Users/a/Downloads/what --check-stamp-file C:/Users/a/Downloads/what/include/llvm/IR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
